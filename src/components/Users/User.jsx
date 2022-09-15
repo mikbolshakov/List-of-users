@@ -27,7 +27,7 @@ export const User = ({
     <img
       className="action"
       onClick={() => onAddFriend(id)}
-      src={`/assets/${friends ? "minus" : "plus"}.svg`}
+      src={`assets/${friends ? "minus" : "plus"}.svg`}
       alt="Action"
     />
   </li>
